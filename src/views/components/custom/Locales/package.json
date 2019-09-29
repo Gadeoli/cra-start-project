@@ -1,0 +1,6 @@
+{
+  "name": "Locales",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Locales.js"
+}

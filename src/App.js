@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import 'assets/fontAwesomeIconsLibrary';
+import { FormattedMessage } from 'react-intl';
+import './App.scss';
+
+//views / Pages
+import Home from 'views/components/pages/Home/Home';
+import Contact from 'views/components/pages/Contact/Contact';
+
+const loading = () => <div className="animated fadeIn pt-3 text-center">Loading...</div>;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename="/">
+      <React.Suspense fallback={loading()}>
+        <Switch>
+          <Route exact path="/"><Home /></Route>
+          <Route exact path="/contact"><Contact /></Route>
+        </Switch>
+      </React.Suspense>
+    </Router>
   );
 }
 
