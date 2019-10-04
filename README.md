@@ -16,7 +16,7 @@
     <li>Intl - Internationalization</li>
 </ul>
 
-## ADDED
+## Start with
 <p>Start with:</p>
 <ul>
     <li>Clone</li>
