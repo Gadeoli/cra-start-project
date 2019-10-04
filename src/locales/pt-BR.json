@@ -1,8 +1,19 @@
 {
+    "error.required": "Campo obrigatório",
+    "error.max": "Campo excedeu o limite de caracteres",
+    
     "lang.choose": "Escolha um idioma",
     "lang.portuguese": "Português do Brasil",
     "lang.english": "Inglês",
+    
+    "label.email": "Email",
+    "label.password": "Senha",
+    "label.name": "Nome",
+    "label.message": "Mensagem",
+    "label.login": "Entrar",
+    "label.send": "Enviar",
 
     "title.contact": "Contato",
     "title.home": "Início"
+
 }

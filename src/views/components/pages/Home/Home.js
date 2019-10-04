@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'reactstrap';
 import './Home.scss';
 import { FormattedMessage } from 'react-intl';
-import Locales from 'views/components/custom/Locales/';
+import Locales from 'views/components/custom/Locales/Locales';
 
 function Home() {
   return (

@@ -1,7 +1,17 @@
 {
+    "error.required": "Required Field",
+    "error.max": "To long text to this field",
+
     "lang.choose": "Choose your language",
     "lang.portuguese": "Brasilian Portuguese",
     "lang.english": "English",
+
+    "label.email": "Email",
+    "label.password": "Password",
+    "label.name": "Name",
+    "label.message": "Message",
+    "label.login": "Sign In",
+    "label.send": "Send",
 
     "title.contact":"Contact",
     "title.home": "Home"
